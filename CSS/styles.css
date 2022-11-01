@@ -1,0 +1,99 @@
+/* Selector {
+    Property: value;
+} */
+
+* {
+    text-align: right;
+    font-family: 'Roboto Mono', monospace;
+}
+
+/* element selectors */
+body {
+    background-image: url("thievesbg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+h2, p {
+    color: crimson;
+    text-align: center;
+    border: 5px solid orangered;
+    cursor: pointer;
+}
+
+header a {
+    color: aqua;
+}
+
+li > a {
+    color: red;
+}
+
+header + section {
+    background-color: orange;
+}
+
+p {
+    color: salmon;
+}
+
+p {
+    color: lime;
+    border: 2px ridge rgba(211, 255, 17, .5);
+    text-decoration: line-through;
+    text-transform: uppercase;
+    line-height: 30px;
+    font-style: italic;
+    font-weight: lighter;
+    font-size: 20px;
+}
+
+li {
+    list-style: none;
+    display: inline-block;
+}
+
+a {
+    color: #4F4B60;
+}
+
+img {
+    float: left;
+}
+
+footer {
+    clear: both;
+    text-align: center;
+    color: aqua;
+}
+
+/* class selectors */
+.webtext {
+    border: 3px dashed royalblue;
+}
+
+.webtext-again {
+    color: crimson;
+}
+
+/* id selectors */
+#div1 {
+    background-color: rgba(0, 0, 255, .2);
+}
+
+#div2 {
+    background-color: rgba(255, 0, 0, .2);
+}
+
+h2:hover {
+    color: violet;
+    text-align: left;
+}
+
+.webtext:first-child {
+    background-color: yellow;
+}
+
+.webtext:last-child {
+    background-color: violet;
+}

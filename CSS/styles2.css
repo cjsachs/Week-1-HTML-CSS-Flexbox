@@ -1,0 +1,20 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.boxmodel {
+    display: inline-block;
+    border: 3px solid red;
+    padding: 20px;
+    background-color: aqua;
+    margin: 10px;
+}
+
+p {
+    font-size: 40px;
+}
+
+span {
+    font-size: 3rem;
+}
