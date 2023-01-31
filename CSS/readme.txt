@@ -21,9 +21,6 @@ background-size, list-style, cursor, inline-block)
 font-family)
 -- Google Fonts
 
-5. Images in CSS
-(float, clear)
-
 6. Box Model
 -- Create login.html, styles2.css
 EXTRA: px vs em vs rem
