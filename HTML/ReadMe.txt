@@ -1,7 +1,14 @@
+OPTIONAL: Extensions
+-- Material Icons
+-- Prettier
+-- Tokyo Night
+
 1. HTML Basics
 -- Boilerplate, W3schools, MDN, StackOverFlow
 -- HTML Tags
 (header, paragraph, strong(bold), emphasize(italicize))
+
+-- Block level Elements & Inline level Elements
 
 -- HTML Tags 2
 (ordered & unordered list)
